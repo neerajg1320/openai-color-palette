@@ -58,8 +58,8 @@ def get_colors(msg):
 def prompt_to_palette():
   param_query = request.form.get("query")
   
-  # colors = get_colors(param_query)
-  colors = get_colors_fake(param_query)
+  colors = get_colors(param_query)
+  # colors = get_colors_fake(param_query)
   
   return {"colors": colors}
 
