@@ -48,6 +48,7 @@ body {
   color: white;
   border: 2px solid white;
   transition: 0.2s opacity;
+  cursor: pointer;
 }
 #form .btn:hover {
   opacity: 0.8;
